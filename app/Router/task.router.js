@@ -1,6 +1,6 @@
 var express=require('express');
 var Router=express.Router();
-const Task = require("./../model/Task");
+const Task = require("./../model/task");
 const TaskController = require("./../controllers/task.controller");
 
 //Based on the incoming routes, decide the function to call to take action.
