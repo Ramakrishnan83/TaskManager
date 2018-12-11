@@ -4,7 +4,7 @@ var taskrouter=require('./app/Router/task.router');
 var cors=require('cors');
 
 var app=express();
-var port=3636;
+var port = process.env.PORT || 3000;
 
 //For home page access- load the index.html from web folder
 app.use("/",express.static('web'));
