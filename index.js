@@ -1,10 +1,10 @@
 var express=require('express');
 var bodyParser=require('body-parser');
-var taskrouter=require('./app/Router/task.router');
+var taskrouter=require('./Router/task.router');
 var cors=require('cors');
 
 var app=express();
-var port = process.env.PORT || 3000;
+var port=3636;
 
 //For home page access- load the index.html from web folder
 app.use("/",express.static('web'));
@@ -22,8 +22,8 @@ if (!!err)
 }
 else
 {
-    console.log("listening at 3000");
+    console.log("listening at 3636");
     //Load my DB connection
-    require("./app/db/database")
+    require("./db/database")
 }
 })

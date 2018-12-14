@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +24,7 @@
     "express-generator": "^4.16.0",
     "jasmine": "^3.3.1",
     "mocha": "^5.2.0",
-    "mongoose": "^5.3.13",
+    "mongoose": "^5.3.16",
     "request": "^2.88.0"
   }
 }
